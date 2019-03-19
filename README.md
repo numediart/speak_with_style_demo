@@ -2,7 +2,7 @@
 Demo of a synthesized utterance with different styles with controllable intensities
 
 ## What it is
-This demo plays samples of the result of a work on controllable expressive speech synthesis.
+This demo plays samples of the result of a work on controllable expressive speech synthesis. This repository does not contain the model itself.
 
 We developed of a multi-style TTS system with the possibility to control the intensity of style categories. It is a modified version of [DCTTS](https://github.com/Kyubyong/dc_tts) that takes an encoding of the category at the input of the decoder. During training, a simple one-hot encoding is used. The size of the code is the number of different styles. At synthesis stage, we can modify the intensity of a style category by inputting other codes. 
 

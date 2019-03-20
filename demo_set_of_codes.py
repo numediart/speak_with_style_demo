@@ -1,9 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import librosa
 import sounddevice as sd
 import os
-
+from scipy.io import wavfile
 
 # fig, ax = plt.subplots()
 fig = plt.figure()
@@ -51,7 +50,7 @@ def onclick(event):
     print(all_weights[lines[idx]])
 
     # load and play
-    y, fs = librosa.load(os.path.join('set_of_will_samples', str(lines[idx])+".wav"))
+    fs,y=wavfile.read(os.path.join('set_of_will_samples', str(lines[idx])+".wav"))
     sd.play(y,fs)
 
 cid = fig.canvas.mpl_connect('button_press_event', onclick)

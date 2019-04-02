@@ -8,7 +8,7 @@ We developed of a multi-style TTS system with the possibility to control the int
 
 In this demo, we interpolate between neutral and each style. 
 
-Only the number corresponding to neutral and the category with which we interploate are non-zero. The sum of the numbers of a code is one. 
+Only the number corresponding to neutral and the category with which we interpolate are non-zero. The sum of the numbers of a code is one. 
 
 Example:
 

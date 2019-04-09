@@ -1,5 +1,6 @@
 # Speak with style : a demo
 Demo of a synthesized utterance with different styles with controllable intensities
+Also see this working [here](http://noetits.com/speak-with-style-demo/) in javascript.
 
 ## What it is
 This demo plays samples of the result of a work on controllable expressive speech synthesis. This repository does not contain the model itself.

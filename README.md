@@ -1,5 +1,6 @@
 # Speak with style : a demo
-Demo of a synthesized utterance with different styles with controllable intensities
+Demo of a synthesized utterance with different styles with controllable intensities.
+
 Also see this working [here](http://noetits.com/speak-with-style-demo/) in javascript.
 
 ## What it is
